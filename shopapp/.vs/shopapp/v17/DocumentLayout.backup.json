@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\shopapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:shopapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:wwwroot\\images\\iphone8.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\models\\categorywithproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:models\\categorywithproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|c:\\users\\jplaptop\\source\\repos\\shopapp\\shopapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93EB098C-7E5F-45E9-A3C3-C9CF07F850A7}|shopapp.csproj|solutionrelative:shopapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T14:45:37.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T14:45:18.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAADg//////8hwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T17:27:09.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:26:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T17:04:03.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T17:03:16.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T17:00:37.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "shopapp",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\shopapp.csproj",
+              "RelativeDocumentMoniker": "shopapp.csproj",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\shopapp.csproj",
+              "RelativeToolTip": "shopapp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T16:55:59.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAMDMzMzMLwAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T16:41:27.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:29:59.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:23:00.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "iphone8.jpg",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\iphone8.jpg",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+              "RelativeToolTip": "wwwroot\\images\\iphone8.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-08-28T17:14:48.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:29:21.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryWithProducts.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\CategoryWithProducts.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryWithProducts.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\CategoryWithProducts.cs",
+              "RelativeToolTip": "Models\\CategoryWithProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:49:09.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:28:19.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "shopapp.csproj",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\shopapp.csproj",
+              "RelativeDocumentMoniker": "shopapp.csproj",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\shopapp.csproj",
+              "RelativeToolTip": "shopapp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T16:23:36.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

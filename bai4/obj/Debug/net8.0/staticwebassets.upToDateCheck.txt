@@ -1,0 +1,5 @@
+wwwroot\img\dino.jpg
+wwwroot\img\Dosecret.jpg
+wwwroot\img\magic.jpg
+wwwroot\img\moon.jpg
+wwwroot\img\steeltroop.jpg

@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = bai3
+build_property.RootNamespace = bai3
+build_property.ProjectDir = C:\Users\JpLaptop\source\repos\bai3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\JpLaptop\source\repos\bai3
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/JpLaptop/source/repos/bai3/Views/Aptech/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXB0ZWNoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JpLaptop/source/repos/bai3/Views/Aptech/Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXB0ZWNoXFN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JpLaptop/source/repos/bai3/Views/Aptech/StudentDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXB0ZWNoXFN0dWRlbnREZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JpLaptop/source/repos/bai3/Views/VietNam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlldE5hbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JpLaptop/source/repos/bai3/Views/VietNam/ThanhPho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlldE5hbVxUaGFuaFBoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

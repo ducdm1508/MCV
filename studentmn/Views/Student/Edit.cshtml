@@ -1,0 +1,64 @@
+﻿@model studentmn.Models.Student
+@{
+    ViewData["Title"] = "Sửa Điểm Học Sinh";
+    var allSubjects = ViewData["AllSubjects"] as List<studentmn.Models.Subject> ?? new List<studentmn.Models.Subject>();
+    var subjectScores = ViewData["SubjectScores"] as Dictionary<int, decimal> ?? new Dictionary<int, decimal>();
+    var student = ViewData["Student"] as studentmn.Models.Student;
+}
+
+<div class="container mt-4">
+    <h2 class="fw-bold mb-4"><i class="bi bi-pencil-square"></i> Sửa Điểm Học Sinh</h2>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0"><i class="bi bi-person-badge"></i> Thông tin học sinh</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Họ và tên:</strong> @student?.FullName</p>
+            <p><strong>Lớp:</strong> @student?.ClassName</p>
+        </div>
+    </div>
+
+    <form asp-action="Edit" asp-route-id="@student?.Id" method="post" class="needs-validation" novalidate>
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="bi bi-journal-text"></i> Điểm các môn học</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Môn học</th>
+                            <th>Điểm (0-10)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var subject in allSubjects)
+                        {
+                            var score = subjectScores.ContainsKey(subject.Id) ? subjectScores[subject.Id] : 0;
+                            <tr>
+                                <td><strong>@subject.SubjectName</strong></td>
+                                <td>
+                                    <input type="number" name="SubjectScores[@subject.Id]"
+                                           class="form-control"
+                                           min="0" max="10" step="0.1"
+                                           value="@score" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-check-circle"></i> Cập nhật điểm
+            </button>
+        </div>
+    </form>
+</div>

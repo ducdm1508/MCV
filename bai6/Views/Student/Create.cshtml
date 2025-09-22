@@ -1,0 +1,95 @@
+﻿@model bai6.Models.Student
+@{
+    ViewData["Title"] = "Thêm Student";
+}
+
+<div class="container">
+    <h2 class="mb-4">Thêm Student</h2>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <h6>Có lỗi xảy ra:</h6>
+            <div asp-validation-summary="All"></div>
+        </div>
+    }
+
+    <form asp-action="Create" method="post" class="row g-3" id="studentForm">
+        <div class="col-md-4">
+            <label asp-for="FirstName" class="form-label">First Name *</label>
+            <input asp-for="FirstName" class="form-control" placeholder="Enter first name" required />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-4">
+            <label asp-for="MiddleName" class="form-label">Middle Name</label>
+            <input asp-for="MiddleName" class="form-control" placeholder="Enter middle name (optional)" />
+            <span asp-validation-for="MiddleName" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-4">
+            <label asp-for="LastName" class="form-label">Last Name *</label>
+            <input asp-for="LastName" class="form-control" placeholder="Enter last name" required />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Email" class="form-label">Email *</label>
+            <input asp-for="Email" type="email" class="form-control" placeholder="example@email.com" required />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Phone" class="form-label">Phone *</label>
+            <input asp-for="Phone" class="form-control" placeholder="0912345678" required />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Birthday" class="form-label">Birthday</label>
+            <input asp-for="Birthday" type="date" class="form-control" />
+            <span asp-validation-for="Birthday" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="EClass" class="form-label">Class</label>
+            <input asp-for="EClass" class="form-control" placeholder="C1, C2, etc." />
+            <span asp-validation-for="EClass" class="text-danger"></span>
+        </div>
+
+        <div class="col-12">
+            <small class="text-muted">* Required fields</small>
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary" id="submitBtn">
+                <i class="fas fa-save"></i> Lưu
+            </button>
+            <a href="@Url.Action("Index", "Student")" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Quay lại
+            </a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('studentForm').addEventListener('submit', function(e) {
+            console.log('Form submitted');
+
+            var firstName = document.getElementById('FirstName').value.trim();
+            var lastName = document.getElementById('LastName').value.trim();
+            var email = document.getElementById('Email').value.trim();
+            var phone = document.getElementById('Phone').value.trim();
+
+            if (!firstName || !lastName || !email || !phone) {
+                e.preventDefault();
+                alert('Vui lòng điền đầy đủ các trường bắt buộc!');
+                return false;
+            }
+
+            console.log('Form validation passed');
+        });
+    </script>
+}

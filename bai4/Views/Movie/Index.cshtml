@@ -1,0 +1,24 @@
+﻿@model List<bai4.Models.Movie>
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1 class="mb-4 text-center">Doraemon Movies</h1>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var movie in Model)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <img src="@movie.Poster" class="card-img-top" alt="@movie.Title" />
+                <div class="card-body">
+                    <h5 class="card-title">@movie.Title</h5>
+                    <p class="card-text">@movie.Description</p>
+                    <p><strong>Director:</strong> @movie.Director</p>
+                    <a href="@Url.Action("Details", "Movie", new { id = movie.Id })" class="btn btn-primary">View Details</a>
+                    <a href="@Url.Action("Watch", "Movie", new { id = movie.Id })" class="btn btn-success">Watch Movie</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

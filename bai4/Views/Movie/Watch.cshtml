@@ -1,0 +1,35 @@
+﻿@model bai4.Models.Movie
+@{
+    ViewData["Title"] = "Watch Movie";
+}
+
+<h2 class="mb-4 text-center">@Model.Title</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <video id="my-video"
+               class="video-js vjs-big-play-centered"
+               controls
+               preload="auto"
+               width="100%"
+               height="400"
+               data-setup='{}'>
+            <source src="@Model.WatchLink" type="application/x-mpegURL" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="col-md-4">
+        <h5 class="mb-3">Related Movies</h5>
+        <div class="list-group">
+            @foreach (var movie in ViewBag.Related as List<bai4.Models.Movie>)
+            {
+                <a href="@Url.Action("Watch", "Movie", new { id = movie.Id })" class="list-group-item list-group-item-action">
+                    <img src="@movie.Poster" class="img-fluid mb-2" style="height: 80px; object-fit: cover;" />
+                    @movie.Title
+                </a>
+            }
+        </div>
+        <a href="@Url.Action("Index", "Movie")" class="btn btn-secondary mt-3">Back to Home</a>
+    </div>
+</div>

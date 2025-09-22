@@ -1,0 +1,66 @@
+﻿@model List<shopapp.Models.CategoryWithProducts>
+
+<div class="container mt-4">
+    <a href="@Url.Action("Index", "Cart")" class="btn btn-outline-primary">
+        Giỏ hàng 
+    </a>
+    <h2 class="text-center mb-4">Danh sách sản phẩm</h2>
+
+    <div class="mb-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-secondary">Tất cả</a>
+        @foreach (var group in Model)
+        {
+            <a href="@Url.Action("Index", "Home", new { categoryId = group.Category.Id })"
+               class="btn btn-outline-primary">@group.Category.Name</a>
+        }
+    </div>
+
+    @foreach (var group in Model)
+    {
+        <h3 class="mt-4">@group.Category.Name</h3>
+        <div class="d-flex flex-wrap gap-3">
+            @foreach (var p in group.Products)
+            {
+                <div class="card shadow-sm" style="width: 18rem; flex: 0 0 auto;">
+                    <a href="@Url.Action("Details", "Product", new { id = p.Id })" class="no-hover">
+                        <img src="@p.ImageUrl" class="card-img-top bg-light p-3"
+                             style="height:200px; object-fit:contain;" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@p.Name</h5>
+                        <p class="card-text">@p.Description</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-danger fw-bold mb-0">@p.Price $</p>
+                            <a href="#" class="btn btn-primary buy-now"
+                               data-id="@p.Id"
+                               data-name="@p.Name"
+                               data-price="@p.Price">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<script>
+    document.querySelectorAll('.buy-now').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            let product = {
+                id: this.dataset.id,
+                name: this.dataset.name,
+                price: this.dataset.price
+            };
+
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cart.push(product);
+            localStorage.setItem("cart", JSON.stringify(cart));
+
+            alert(product.name + " đã được thêm vào giỏ hàng!");
+        });
+    });
+</script>
+
+}

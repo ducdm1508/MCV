@@ -1,0 +1,26 @@
+﻿@model bai4.Models.Movie
+@{
+    ViewData["Title"] = "Movie Details";
+}
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <img src="@Model.Poster" class="img-fluid rounded" alt="@Model.Title" />
+    </div>
+    <div class="col-md-8">
+        <h2>@Model.Title</h2>
+        <p><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Director:</strong> @Model.Director</p>
+        <p><strong>Price:</strong> @Model.Price.ToString("C0")</p>
+
+        <div class="mb-3">
+            <h5>Trailer:</h5>
+            <div class="ratio ratio-16x9">
+                <iframe src="@Model.Trailer" title="Trailer of @Model.Title" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <a href="@Url.Action("Watch", "Movie", new { id = Model.Id })" class="btn btn-success me-2">Watch Movie</a>
+        <a href="@Url.Action("Index", "Movie")" class="btn btn-secondary">Back to Home</a>
+    </div>
+</div>

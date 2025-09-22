@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\Dosecret.jpg",
+      "PackagePath": "staticwebassets\\img\\Dosecret.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\dino.jpg",
+      "PackagePath": "staticwebassets\\img\\dino.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\magic.jpg",
+      "PackagePath": "staticwebassets\\img\\magic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\moon.jpg",
+      "PackagePath": "staticwebassets\\img\\moon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\steeltroop.jpg",
+      "PackagePath": "staticwebassets\\img\\steeltroop.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bai4.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bai4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.bai4.props",
+      "PackagePath": "build\\bai4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.bai4.props",
+      "PackagePath": "buildMultiTargeting\\bai4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.bai4.props",
+      "PackagePath": "buildTransitive\\bai4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "Y+4v1If/MIheqSkyyzSE0IyUuwZjzwCxLo6y8xhdfeU=",
+  "Source": "shopapp",
+  "BasePath": "_content/shopapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "shopapp\\wwwroot",
+      "Source": "shopapp",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone10.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/iphone10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jleuhsw8bx",
+      "Integrity": "mblZvhBefHnwJEaVTTLG+WYDnNQqZ+YHascaHbm5Gdc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/iphone8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yr0b8lwdvt",
+      "Integrity": "rpRSYo7vnOQn4reCgDu+0S4qimIXU5ku+K9V57WYW4A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m1.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/m1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwveum7tl3",
+      "Integrity": "BcECoQh2wpv2C7yLs0RaEGIVelfVIF66YJGnsfBrhms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\m1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m2.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/m2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2o5dfouvzy",
+      "Integrity": "DjO+VEoNjuvbEmKxVAoBVt9Xp/knsOQX8NDXxmCZdeE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\m2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m3.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/m3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lmaq9lccjf",
+      "Integrity": "TZUnk8XICccMx/G8XTKBnn08Lkw/j70INl+1g5Ko2OY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\m3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m4.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/m4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i1myx162n7",
+      "Integrity": "6hYFlDSXE120mNxO/EStCly9aobi3KuOP2k5en7G+eg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\m4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\s25.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/s25#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a6pzp1ebar",
+      "Integrity": "zpj17qt/RivLL+RqVl3cFGotV7WsxA7UEA/IYoJ/gK4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\s25.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\zflip3.jpg",
+      "SourceId": "shopapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\",
+      "BasePath": "_content/shopapp",
+      "RelativePath": "images/zflip3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0keovn1mfr",
+      "Integrity": "UNUL9x6Q6PC+nywcCHBQncCN6XfO2VtjC+HCUYHb5YE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\zflip3.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/iphone10.jleuhsw8bx.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mblZvhBefHnwJEaVTTLG+WYDnNQqZ+YHascaHbm5Gdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:15:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jleuhsw8bx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mblZvhBefHnwJEaVTTLG+WYDnNQqZ+YHascaHbm5Gdc="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone10.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mblZvhBefHnwJEaVTTLG+WYDnNQqZ+YHascaHbm5Gdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:15:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mblZvhBefHnwJEaVTTLG+WYDnNQqZ+YHascaHbm5Gdc="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone8.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpRSYo7vnOQn4reCgDu+0S4qimIXU5ku+K9V57WYW4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:14:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rpRSYo7vnOQn4reCgDu+0S4qimIXU5ku+K9V57WYW4A="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone8.yr0b8lwdvt.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpRSYo7vnOQn4reCgDu+0S4qimIXU5ku+K9V57WYW4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:14:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yr0b8lwdvt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rpRSYo7vnOQn4reCgDu+0S4qimIXU5ku+K9V57WYW4A="
+        }
+      ]
+    },
+    {
+      "Route": "images/m1.bwveum7tl3.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BcECoQh2wpv2C7yLs0RaEGIVelfVIF66YJGnsfBrhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwveum7tl3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/m1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BcECoQh2wpv2C7yLs0RaEGIVelfVIF66YJGnsfBrhms="
+        }
+      ]
+    },
+    {
+      "Route": "images/m1.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BcECoQh2wpv2C7yLs0RaEGIVelfVIF66YJGnsfBrhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BcECoQh2wpv2C7yLs0RaEGIVelfVIF66YJGnsfBrhms="
+        }
+      ]
+    },
+    {
+      "Route": "images/m2.2o5dfouvzy.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DjO+VEoNjuvbEmKxVAoBVt9Xp/knsOQX8NDXxmCZdeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2o5dfouvzy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/m2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DjO+VEoNjuvbEmKxVAoBVt9Xp/knsOQX8NDXxmCZdeE="
+        }
+      ]
+    },
+    {
+      "Route": "images/m2.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DjO+VEoNjuvbEmKxVAoBVt9Xp/knsOQX8NDXxmCZdeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DjO+VEoNjuvbEmKxVAoBVt9Xp/knsOQX8NDXxmCZdeE="
+        }
+      ]
+    },
+    {
+      "Route": "images/m3.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZUnk8XICccMx/G8XTKBnn08Lkw/j70INl+1g5Ko2OY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZUnk8XICccMx/G8XTKBnn08Lkw/j70INl+1g5Ko2OY="
+        }
+      ]
+    },
+    {
+      "Route": "images/m3.lmaq9lccjf.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZUnk8XICccMx/G8XTKBnn08Lkw/j70INl+1g5Ko2OY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lmaq9lccjf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/m3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZUnk8XICccMx/G8XTKBnn08Lkw/j70INl+1g5Ko2OY="
+        }
+      ]
+    },
+    {
+      "Route": "images/m4.i1myx162n7.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hYFlDSXE120mNxO/EStCly9aobi3KuOP2k5en7G+eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1myx162n7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/m4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hYFlDSXE120mNxO/EStCly9aobi3KuOP2k5en7G+eg="
+        }
+      ]
+    },
+    {
+      "Route": "images/m4.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hYFlDSXE120mNxO/EStCly9aobi3KuOP2k5en7G+eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:19:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hYFlDSXE120mNxO/EStCly9aobi3KuOP2k5en7G+eg="
+        }
+      ]
+    },
+    {
+      "Route": "images/s25.a6pzp1ebar.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\s25.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpj17qt/RivLL+RqVl3cFGotV7WsxA7UEA/IYoJ/gK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:15:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a6pzp1ebar"
+        },
+        {
+          "Name": "label",
+          "Value": "images/s25.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpj17qt/RivLL+RqVl3cFGotV7WsxA7UEA/IYoJ/gK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/s25.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\s25.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpj17qt/RivLL+RqVl3cFGotV7WsxA7UEA/IYoJ/gK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:15:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpj17qt/RivLL+RqVl3cFGotV7WsxA7UEA/IYoJ/gK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/zflip3.0keovn1mfr.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\zflip3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNUL9x6Q6PC+nywcCHBQncCN6XfO2VtjC+HCUYHb5YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0keovn1mfr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/zflip3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UNUL9x6Q6PC+nywcCHBQncCN6XfO2VtjC+HCUYHb5YE="
+        }
+      ]
+    },
+    {
+      "Route": "images/zflip3.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\zflip3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNUL9x6Q6PC+nywcCHBQncCN6XfO2VtjC+HCUYHb5YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 17:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UNUL9x6Q6PC+nywcCHBQncCN6XfO2VtjC+HCUYHb5YE="
+        }
+      ]
+    }
+  ]
+}

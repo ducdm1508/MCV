@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone10.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\iphone8.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m1.jpg",
+      "PackagePath": "staticwebassets\\images\\m1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m2.jpg",
+      "PackagePath": "staticwebassets\\images\\m2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m3.jpg",
+      "PackagePath": "staticwebassets\\images\\m3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\m4.jpg",
+      "PackagePath": "staticwebassets\\images\\m4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\s25.jpg",
+      "PackagePath": "staticwebassets\\images\\s25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JpLaptop\\source\\repos\\shopapp\\wwwroot\\images\\zflip3.jpg",
+      "PackagePath": "staticwebassets\\images\\zflip3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.shopapp.props",
+      "PackagePath": "build\\shopapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.shopapp.props",
+      "PackagePath": "buildMultiTargeting\\shopapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.shopapp.props",
+      "PackagePath": "buildTransitive\\shopapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.shopapp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.shopapp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

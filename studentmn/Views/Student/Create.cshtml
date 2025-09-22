@@ -1,0 +1,108 @@
+﻿@model CreateStudentRequest
+@{
+    ViewData["Title"] = "Tạo học sinh mới";
+}
+
+<div class="container mt-4">
+    <h2 class="fw-bold mb-4"><i class="bi bi-person-plus"></i> Tạo học sinh mới</h2>
+
+    <div class="row">
+        <div class="col-md-10">
+            <form asp-action="Create" method="post" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <!-- Thông tin học sinh -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="bi bi-info-circle"></i> Thông tin học sinh</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="FullName" class="form-label fw-bold">Họ và tên</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                <input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên..." />
+                            </div>
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="BirthDate" class="form-label fw-bold">Ngày sinh</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-calendar-date"></i></span>
+                                <input asp-for="BirthDate" class="form-control" type="date" />
+                            </div>
+                            <span asp-validation-for="BirthDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ClassName" class="form-label fw-bold">Lớp</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-book"></i></span>
+                                <input asp-for="ClassName" class="form-control" placeholder="Nhập tên lớp..." />
+                            </div>
+                            <span asp-validation-for="ClassName" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Điểm số các môn -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="bi bi-pencil-square"></i> Điểm số các môn học</h5>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.AllSubjects != null && Model.AllSubjects.Any())
+                        {
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th style="width:60%">Môn học</th>
+                                        <th style="width:40%">Điểm (0-10)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var subject in Model.AllSubjects)
+                                    {
+                                        <tr>
+                                            <td><strong>@subject.SubjectName</strong></td>
+                                            <td>
+                                                <input name="SubjectScores[@subject.Id]"
+                                                       type="number"
+                                                       step="0.01"
+                                                       min="0"
+                                                       max="10"
+                                                       class="form-control"
+                                                       placeholder="Nhập điểm..."
+                                                       value="@(Model.SubjectScores.ContainsKey(subject.Id) ? Model.SubjectScores[subject.Id] : 0)" />
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        <small class="text-muted fst-italic">
+                            Có thể để trống điểm cho môn học chưa có điểm.
+                        </small>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i> Quay lại danh sách
+                    </a>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-circle"></i> Tạo học sinh
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

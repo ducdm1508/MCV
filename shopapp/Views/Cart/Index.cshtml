@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Giỏ hàng</h2>
+
+    <table class="table table-bordered" id="cartTable">
+        <thead class="table-light">
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá ($)</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <div class="text-end">
+        <h4 class="fw-bold">Tổng cộng: <span id="totalPrice">0</span> $</h4>
+    </div>
+
+    <div class="mt-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Tiếp tục mua hàng</a>
+    </div>
+</div>
+
+<script>
+    function loadCart() {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let tbody = document.querySelector("#cartTable tbody");
+        let total = 0;
+        tbody.innerHTML = "";
+
+        cart.forEach((p, index) => {
+            let price = Number(p.price);
+            let row = `
+                <tr>
+                    <td>${p.name}</td>
+                    <td>${price}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="removeFromCart(${index})">Xóa</button>
+                    </td>
+                </tr>
+            `;
+            tbody.innerHTML += row;
+            total += price;
+        });
+
+        document.getElementById("totalPrice").innerText = total;
+    }
+
+    function removeFromCart(index) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.splice(index, 1);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        loadCart();
+    }
+
+
+
+    loadCart();
+</script>

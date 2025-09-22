@@ -1,0 +1,11 @@
+C:\Users\JpLaptop\source\repos\StudentValidationLib\bin\Debug\net8.0\StudentValidationLib.deps.json
+C:\Users\JpLaptop\source\repos\StudentValidationLib\bin\Debug\net8.0\StudentValidationLib.dll
+C:\Users\JpLaptop\source\repos\StudentValidationLib\bin\Debug\net8.0\StudentValidationLib.pdb
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.AssemblyInfoInputs.cache
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.AssemblyInfo.cs
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.csproj.CoreCompileInputs.cache
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.dll
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\refint\StudentValidationLib.dll
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\StudentValidationLib.pdb
+C:\Users\JpLaptop\source\repos\StudentValidationLib\obj\Debug\net8.0\ref\StudentValidationLib.dll

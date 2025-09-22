@@ -1,0 +1,67 @@
+﻿@model studentmn.Models.StudentScoreViewModel
+@{
+    ViewData["Title"] = "Chi Tiết Học Sinh";
+    var subjects = ViewBag.Subjects as List<string> ?? new List<string>();
+}
+
+<div class="container mt-4">
+    <h2 class="fw-bold mb-4"><i class="bi bi-info-circle"></i> Chi Tiết Học Sinh</h2>
+
+    <!-- Thông tin học sinh -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0"><i class="bi bi-person-badge"></i> Thông tin học sinh</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Họ và tên:</strong> @Model.FullName</p>
+            <p><strong>Lớp:</strong> @Model.ClassName</p>
+            <p><strong>Năm Sinh:</strong> @Model.BirthDate</p>
+        </div>
+    </div>
+
+    <!-- Điểm số -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-success text-white">
+            <h5 class="mb-0"><i class="bi bi-journal-text"></i> Điểm các môn học</h5>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Môn học</th>
+                        <th>Điểm</th>
+                        <th>Năm sinh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var subject in subjects)
+                    {
+                        <tr>
+                            <td><strong>@subject</strong></td>
+                            <td>
+                                @if (Model.SubjectScores[subject].HasValue)
+                                {
+                                    @Model.SubjectScores[subject]?.ToString("0.0")
+                                }
+                                else
+                                {
+                                    <span class="text-muted">-</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <p class="fw-bold">Điểm trung bình: <span class="text-primary">@Model.AverageScore.ToString("0.00")</span></p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Quay lại danh sách
+        </a>
+        <a asp-action="Edit" asp-route-id="@Model.StudentId" class="btn btn-warning">
+            <i class="bi bi-pencil-square"></i> Sửa
+        </a>
+    </div>
+</div>

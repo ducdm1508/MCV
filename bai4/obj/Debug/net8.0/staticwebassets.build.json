@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "ohKARl4w4qLa6LgThq3kmTimdwCNRVMz22qmkvib/As=",
+  "Source": "bai4",
+  "BasePath": "_content/bai4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "bai4\\wwwroot",
+      "Source": "bai4",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\dino.jpg",
+      "SourceId": "bai4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "RelativePath": "img/dino#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jtf1zgf6am",
+      "Integrity": "qUbq9ToHiqaSTUSm5o7nFqS1ArADCv2ZanDcOhMY5kU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dino.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\Dosecret.jpg",
+      "SourceId": "bai4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "RelativePath": "img/Dosecret#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7e7i3gak32",
+      "Integrity": "77gSlZxh32RNUMuhMDQ6jwgUe8pSsbCvondbSBcmvuE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Dosecret.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\magic.jpg",
+      "SourceId": "bai4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "RelativePath": "img/magic#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1rfqr0kkkz",
+      "Integrity": "w/IOD2CLfDvETzp2ddTaXZFiuPxzj1szqEWXl/joxG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\magic.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\moon.jpg",
+      "SourceId": "bai4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "RelativePath": "img/moon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xbfuz3duwz",
+      "Integrity": "HeihFTvIbCFdKizZp7Opag3FeraNWRRPid51wmpUM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\moon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\steeltroop.jpg",
+      "SourceId": "bai4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\",
+      "BasePath": "_content/bai4",
+      "RelativePath": "img/steeltroop#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15pa7nz00z",
+      "Integrity": "xfA6mtdjz9p6FT4T3cd+Flgeii7NYnmyO3vxQTR/7y4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\steeltroop.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "img/dino.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\dino.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qUbq9ToHiqaSTUSm5o7nFqS1ArADCv2ZanDcOhMY5kU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:03:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUbq9ToHiqaSTUSm5o7nFqS1ArADCv2ZanDcOhMY5kU="
+        }
+      ]
+    },
+    {
+      "Route": "img/dino.jtf1zgf6am.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\dino.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qUbq9ToHiqaSTUSm5o7nFqS1ArADCv2ZanDcOhMY5kU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:03:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jtf1zgf6am"
+        },
+        {
+          "Name": "label",
+          "Value": "img/dino.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUbq9ToHiqaSTUSm5o7nFqS1ArADCv2ZanDcOhMY5kU="
+        }
+      ]
+    },
+    {
+      "Route": "img/Dosecret.7e7i3gak32.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\Dosecret.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"77gSlZxh32RNUMuhMDQ6jwgUe8pSsbCvondbSBcmvuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7e7i3gak32"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Dosecret.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-77gSlZxh32RNUMuhMDQ6jwgUe8pSsbCvondbSBcmvuE="
+        }
+      ]
+    },
+    {
+      "Route": "img/Dosecret.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\Dosecret.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"77gSlZxh32RNUMuhMDQ6jwgUe8pSsbCvondbSBcmvuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-77gSlZxh32RNUMuhMDQ6jwgUe8pSsbCvondbSBcmvuE="
+        }
+      ]
+    },
+    {
+      "Route": "img/magic.1rfqr0kkkz.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\magic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/IOD2CLfDvETzp2ddTaXZFiuPxzj1szqEWXl/joxG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1rfqr0kkkz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/magic.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/IOD2CLfDvETzp2ddTaXZFiuPxzj1szqEWXl/joxG8="
+        }
+      ]
+    },
+    {
+      "Route": "img/magic.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\magic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/IOD2CLfDvETzp2ddTaXZFiuPxzj1szqEWXl/joxG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/IOD2CLfDvETzp2ddTaXZFiuPxzj1szqEWXl/joxG8="
+        }
+      ]
+    },
+    {
+      "Route": "img/moon.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\moon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HeihFTvIbCFdKizZp7Opag3FeraNWRRPid51wmpUM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:05:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HeihFTvIbCFdKizZp7Opag3FeraNWRRPid51wmpUM+o="
+        }
+      ]
+    },
+    {
+      "Route": "img/moon.xbfuz3duwz.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\moon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HeihFTvIbCFdKizZp7Opag3FeraNWRRPid51wmpUM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:05:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbfuz3duwz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/moon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HeihFTvIbCFdKizZp7Opag3FeraNWRRPid51wmpUM+o="
+        }
+      ]
+    },
+    {
+      "Route": "img/steeltroop.15pa7nz00z.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\steeltroop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfA6mtdjz9p6FT4T3cd+Flgeii7NYnmyO3vxQTR/7y4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15pa7nz00z"
+        },
+        {
+          "Name": "label",
+          "Value": "img/steeltroop.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfA6mtdjz9p6FT4T3cd+Flgeii7NYnmyO3vxQTR/7y4="
+        }
+      ]
+    },
+    {
+      "Route": "img/steeltroop.jpg",
+      "AssetFile": "C:\\Users\\JpLaptop\\source\\repos\\bai4\\wwwroot\\img\\steeltroop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfA6mtdjz9p6FT4T3cd+Flgeii7NYnmyO3vxQTR/7y4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 12:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfA6mtdjz9p6FT4T3cd+Flgeii7NYnmyO3vxQTR/7y4="
+        }
+      ]
+    }
+  ]
+}
