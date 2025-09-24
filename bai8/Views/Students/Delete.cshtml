@@ -1,0 +1,19 @@
+﻿@model bai8.Models.Student
+
+<h2>Xóa Sinh viên</h2>
+
+<p>Bạn có chắc muốn xóa sinh viên <strong>@Model.FullName</strong> không?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Xóa</button>
+    <a href="/Students">Hủy</a>
+</form>
+
+<h3>Khóa học đã đăng ký:</h3>
+<ul>
+    @foreach (var c in Model.Courses)
+    {
+        <li>@c.CourseName</li>
+    }
+</ul>

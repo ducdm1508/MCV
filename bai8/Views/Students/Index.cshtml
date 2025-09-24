@@ -1,0 +1,31 @@
+﻿@model IEnumerable<bai8.Models.Student>
+
+<h2>Danh sách Sinh viên</h2>
+<a href="/Students/Create">Thêm Sinh viên</a>
+<table border="1">
+    <tr>
+        <th>Họ và tên</th>
+        <th>Ngày sinh</th>
+        <th>Lớp</th>
+        <th>Khóa học đăng ký</th>
+        <th>Hành động</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.FullName</td>
+            <td>@student.BirthDate.ToShortDateString()</td>
+            <td>@student.ClassName</td>
+            <td>
+                @foreach (var course in student.Courses)
+                {
+                    @course.CourseName <br />
+                }
+            </td>
+            <td>
+                <a href="/Students/Edit/@student.Id">Sửa</a> |
+                <a href="/Students/Delete/@student.Id">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>

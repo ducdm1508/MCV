@@ -1,0 +1,25 @@
+﻿@model bai8.Models.Student
+@{
+    var courses = ViewBag.Courses as List<bai8.Models.Course>;
+}
+
+<h2>Thêm Sinh viên</h2>
+
+<form asp-action="Create" method="post">
+    <label>Họ và tên:</label>
+    <input asp-for="FullName" /><br />
+
+    <label>Ngày sinh:</label>
+    <input asp-for="BirthDate" type="date" /><br />
+
+    <label>Lớp:</label>
+    <input asp-for="ClassName" /><br />
+
+    <label>Chọn khóa học:</label><br />
+    @foreach (var c in courses)
+    {
+        <input type="checkbox" name="selectedCourses" value="@c.Id" /> @c.CourseName <br />
+    }
+
+    <button type="submit">Thêm</button>
+</form>
