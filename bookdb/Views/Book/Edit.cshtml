@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model bookdb.Models.Book;
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="BookingDate" class="control-label"></label>
+        <input asp-for="BookingDate" class="form-control" type="datetime-local" />
+        <span asp-validation-for="BookingDate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Pages"></label>
+        <input type="text" asp-for="Pages" />
+        <span asp-validation-for="Pages" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Genre"></label>
+        <input type="text" asp-for="Genre" />
+        <span asp-validation-for="Genre" class="text-danger"></span>
+    </div>
+    <button type="submit">update</button>
+</form>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

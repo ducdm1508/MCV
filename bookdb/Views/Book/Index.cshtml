@@ -1,0 +1,81 @@
+﻿@model IEnumerable<bookdb.Models.Book>
+@{
+    ViewData["Title"] = "Index";
+}
+<a asp-action="Create">Add</a>
+<form asp-controller="Book" asp-action="Index" method="get">
+    <p>
+        Tìm kiếm: <input type="text" name="searchString" value="@ViewBag.SearchString" />
+        <input type="submit" value="Search" />
+    </p>
+</form>
+
+<table>
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.Title)</td>
+        <td>@Html.DisplayNameFor(model => model.Pages)</td>
+        <td>@Html.DisplayNameFor(model => model.Genre)</td>
+        <td>Action</td>
+    </tr>
+    @foreach(var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Pages</td>
+            <td>@book.Genre</td>
+            <td>
+                <div>
+                    <a asp-action="Edit" asp-route-id="@book.Id">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@book.Id">Delete</a>
+                    <a asp-action="Detail" asp-route-id="@book.Id">Detail</a>
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+    <ul class="pagination">
+        <!-- Nút mũi tên trái -->
+        <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link"
+               asp-action="Index"
+               asp-route-page="@(ViewBag.CurrentPage - 1)"
+               asp-route-searchString="@ViewBag.SearchString">
+                &laquo;
+            </a>
+        </li>
+
+        @{
+            // Luôn hiển thị 3 trang liên tiếp
+            int startPage = ViewBag.CurrentPage;
+            int endPage = Math.Min(ViewBag.TotalPages, ViewBag.CurrentPage + 2);
+
+            // Nếu đang ở cuối danh sách, lùi lại cho đủ 3 trang
+            if (endPage - startPage < 2)
+            {
+                startPage = Math.Max(1, endPage - 2);
+            }
+        }
+
+        @for (int i = startPage; i <= endPage; i++)
+        {
+            <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                <a class="page-link"
+                   asp-action="Index"
+                   asp-route-page="@i"
+                   asp-route-searchString="@ViewBag.SearchString">
+                    @i
+                </a>
+            </li>
+        }
+
+        <!-- Nút mũi tên phải -->
+        <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+            <a class="page-link"
+               asp-action="Index"
+               asp-route-page="@(ViewBag.CurrentPage + 1)"
+               asp-route-searchString="@ViewBag.SearchString">
+                &raquo;
+            </a>
+        </li>
+    </ul>
+

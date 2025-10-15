@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\20250925125225_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250925125225_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +47,8 @@
       "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|c:\\users\\jplaptop\\source\\repos\\bai8\\migrations\\20250924133108_addstudentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874CD804-0A1A-43C6-99D2-C579E74CA9B6}|bai8.csproj|solutionrelative:migrations\\20250924133108_addstudentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,36 +70,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAqwC4AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20250925125225_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\20250925125225_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250925125225_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\20250925125225_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250925125225_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:54:17.285Z",
+              "WhenOpened": "2025-09-25T12:52:25.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
               "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:04:19.013Z"
+              "WhenOpened": "2025-09-24T13:04:19.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -111,19 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwF4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:31:39.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -136,20 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T13:07:11.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -162,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -174,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
@@ -186,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
@@ -198,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Models\\Course.cs",
@@ -206,11 +195,38 @@
               "RelativeToolTip": "Models\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:05:06.691Z"
+              "WhenOpened": "2025-09-24T13:05:06.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:54:17.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:52:38.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
@@ -222,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Views\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Edit.cshtml",
@@ -234,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
@@ -243,18 +259,6 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-24T14:00:47.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250924133108_AddStudentCourse.cs",
-              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\20250924133108_AddStudentCourse.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250924133108_AddStudentCourse.cs",
-              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\bai8\\Migrations\\20250924133108_AddStudentCourse.cs",
-              "RelativeToolTip": "Migrations\\20250924133108_AddStudentCourse.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwFQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:31:08.728Z"
             }
           ]
         }
