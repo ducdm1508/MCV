@@ -64,7 +64,7 @@ namespace hw7.Controllers
                 issuer: Jwt["Issuer"],
                 audience: Jwt["Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(10),
+                expires: DateTime.UtcNow.AddMinutes(1),
                 signingCredentials: credentials
                 );
 

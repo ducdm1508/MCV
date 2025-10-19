@@ -1,0 +1,6 @@
+@hwsrl_HostAddress = http://localhost:5022
+
+GET {{hwsrl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
