@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\hw7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:hw7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|c:\\users\\jplaptop\\source\\repos\\hw7\\hw7.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{291BD1DE-7936-4CA4-AF64-BCB45A6A178F}|hw7.csproj|solutionrelative:hw7.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:04:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:00:16.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-17T04:26:40.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "hw7.csproj",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\hw7.csproj",
+              "RelativeDocumentMoniker": "hw7.csproj",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\hw7.csproj",
+              "RelativeToolTip": "hw7.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T04:21:48.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T04:20:39.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Controllers\\UserController.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:59:51.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Data\\users.json",
+              "RelativeDocumentMoniker": "Data\\users.json",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Data\\users.json",
+              "RelativeToolTip": "Data\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-17T12:07:03.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "hw7.http",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\hw7.http",
+              "RelativeDocumentMoniker": "hw7.http",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\hw7.http",
+              "RelativeToolTip": "hw7.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-17T12:37:29.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hw7\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:37:59.856Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

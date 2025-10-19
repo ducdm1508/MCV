@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="getDataBtn">Get Data</button>
+    <button id="logoutBtn"> Logout</button>
+    <div id="dataDisplay"></div>
+</body>
+<script>
+    document.getElementById('getDataBtn').addEventListener('click', function() {
+        const token = localStorage.getItem('authToken');
+        if (!token) {
+            alert('Bạn chưa đăng nhập. Vui lòng đăng nhập lại.');
+            window.location.href = 'login.html';
+            return;
+        }
+
+        fetch('https://localhost:7275/api/User/me', {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token
+            }
+        }).then(response => {
+            if (!response.ok) {
+                localStorage.removeItem('authToken');
+                window.location.href = 'login.html';
+                return;
+            }
+            return response.json();
+        }).then(data => {
+            console.log(data);
+            document.getElementById('dataDisplay').textContent = JSON.stringify(data, null, 2);
+        }).catch(error => {
+            console.error('Error:', error);
+        alert('Có lỗi xảy ra khi lấy dữ liệu.');
+        });
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', function() {
+        localStorage.removeItem('authToken');
+        window.location.href = 'login.html'; 
+    });
+</script>
+</html>

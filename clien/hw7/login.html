@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Login Page</h1>
+        <form  id="loginFrom">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <p id="message" style="color:red;"></p>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+        
+    </div>
+</body>
+<script>
+    document.getElementById('loginFrom').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        fetch('https://localhost:7275/api/Auth/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password })
+        }).then(response => {
+            return response.json();
+        }).then(data => {
+            console.log(data);
+            if (data.accessToken) {
+                localStorage.setItem('authToken', data.accessToken);
+                window.location.href = 'admin.html'; 
+            } else {
+                document.getElementById('message').textContent = (data.message || 'Unknown error');
+            }
+        }).catch(error => {
+            console.error('Error:', error);
+            document.getElementById('message').textContent = 'An error occurred during login.';
+        });
+    });
+</script>
+</html>
