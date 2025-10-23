@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\JpLaptop\\source\\repos\\hwsrl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|c:\\users\\jplaptop\\source\\repos\\hwsrl\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|solutionrelative:controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|c:\\users\\jplaptop\\source\\repos\\hwsrl\\logs\\log-20251019.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|solutionrelative:logs\\log-20251019.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|c:\\users\\jplaptop\\source\\repos\\hwsrl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|c:\\users\\jplaptop\\source\\repos\\hwsrl\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|solutionrelative:controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B5D26E4-99F1-4CF7-B894-C133291D2A14}|hwsrl.csproj|c:\\users\\jplaptop\\source\\repos\\hwsrl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-19T16:31:17.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T16:31:17.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "log-20251019.txt",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hwsrl\\logs\\log-20251019.txt",
               "RelativeDocumentMoniker": "logs\\log-20251019.txt",
@@ -60,20 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NewsController.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hwsrl\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "Controllers\\NewsController.cs",
               "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\hwsrl\\Controllers\\NewsController.cs",
               "RelativeToolTip": "Controllers\\NewsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T16:18:12.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\hwsrl\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:14:42.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T16:14:42.952Z"
             },
             {
               "$type": "Document",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "Models\\News.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:19:55.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T16:19:55.592Z"
             }
           ]
         }

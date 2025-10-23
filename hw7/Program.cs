@@ -1,6 +1,9 @@
 
+
+using hw7.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Routing.Matching;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -14,19 +17,16 @@ namespace hw7
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll",
-                    policy =>
-                    {
-                        policy.AllowAnyOrigin()
-                              .AllowAnyMethod()
-                              .AllowAnyHeader();
-                    });
+                options.AddPolicy("AllowReactApp", policy =>
+                    policy.WithOrigins("http://localhost:3000")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials());
             });
 
 
-            // Add services to the container.
             var jwtSection = builder.Configuration.GetSection("Jwt");
-            var key = jwtSection.GetValue<string>("Key");
+            var secretKey = jwtSection.GetValue<string>("SecretKey");
             var issuer = jwtSection.GetValue<string>("Issuer");
             var audience = jwtSection.GetValue<string>("Audience");
             builder.Services.AddAuthentication(options =>
@@ -43,19 +43,18 @@ namespace hw7
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = issuer,
                     ValidAudience = audience,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key!)),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey!)),
                     ValidateLifetime = true,
-                    ClockSkew = TimeSpan.FromSeconds(5)
+                    ClockSkew = TimeSpan.Zero
                 };
             });
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            app.UseCors("AllowReactApp");
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -63,10 +62,11 @@ namespace hw7
             }
 
             app.UseHttpsRedirection();
-
+   
+            app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseCors("AllowAll");
+
             app.MapControllers();
 
             app.Run();
