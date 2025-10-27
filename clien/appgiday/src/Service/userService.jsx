@@ -1,13 +1,30 @@
-import axios from "axios";
-const BASE_URL = "https://localhost:7275/api";
+
+import api from "./axiosClient";
+
 
 export const loginUser = async (username, password) => {
-  const response = await axios.post(`${BASE_URL}/Auth/login`, {
+  const response = await api.post("/Auth/login", {
     username,
     password,
     
   },{ withCredentials: true });
   return response.data;
+};
+
+export const logoutUser = async () => {
+  try {
+   
+    localStorage.removeItem("token");
+  
+    await api.post(
+      "/Auth/logout",
+      {},
+      { withCredentials: true }
+    );
+  } catch (error) {
+    console.error("Lỗi đăng xuất:", error.message);
+    
+  }
 };
 
 export function getRoleFromToken() {
@@ -20,3 +37,8 @@ export function getRoleFromToken() {
     return null;
   }
 }
+
+export const getAllUsers = async () => {
+  const response = await api.get("/User");
+  return response.data;
+} 

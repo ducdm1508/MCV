@@ -51,6 +51,7 @@ namespace hw7
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddAuthentication();
 
             var app = builder.Build();
 

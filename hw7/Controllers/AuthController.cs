@@ -68,25 +68,33 @@ namespace hw7.Controllers
         {
             var refreshToken = Request.Cookies["refreshToken"];
             if (string.IsNullOrEmpty(refreshToken))
-                return Unauthorized("Missing refresh token.");
+                return Unauthorized(new { message = "Missing refresh token." });
 
             Users? users = null;
 
             using (var connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                string sql = "SELECT Username FROM Users WHERE RefreshToken = @RefreshToken";
+                string sql = "SELECT Username, Role FROM Users WHERE RefreshToken = @RefreshToken";
                 using (var command = new SqlCommand(sql, connection))
                 {
                     command.Parameters.AddWithValue("@RefreshToken", refreshToken);
-                    var result = command.ExecuteScalar();
-                    if (result != null)
-                        users = new Users { Username = result.ToString() };
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            users = new Users
+                            {
+                                Username = reader["Username"].ToString(),
+                                Role = reader["Role"]?.ToString() ?? "user"
+                            };
+                        }
+                    }
                 }
             }
 
             if (users == null || string.IsNullOrEmpty(users.Username))
-                return Unauthorized("Invalid refresh token.");
+                return Unauthorized(new { message = "Invalid refresh token." });
 
             var newRefreshToken = Guid.NewGuid().ToString();
             UpdateRefreshTokenInDb(users.Username, newRefreshToken);
@@ -94,6 +102,39 @@ namespace hw7.Controllers
 
             var newAccessToken = GenerateJwtToken(users);
             return Ok(new { accessToken = newAccessToken });
+        }
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            var refreshToken = Request.Cookies["refreshToken"];
+            if (!string.IsNullOrEmpty(refreshToken))
+            {
+              
+                using (var connection = new SqlConnection(_connectionString))
+                {
+                    connection.Open();
+                    string sql = "UPDATE Users SET RefreshToken = NULL WHERE RefreshToken = @RefreshToken";
+
+                    using (var command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@RefreshToken", refreshToken);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+
+            //  Xóa Cookie
+            Response.Cookies.Append("refreshToken", "", new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.None,
+                Expires = DateTime.UtcNow.AddDays(-1),
+                Path = "/"
+            });
+
+            return Ok("Logged out successfully.");
         }
 
         private void UpdateRefreshTokenInDb(string username, string refreshToken)
@@ -116,8 +157,8 @@ namespace hw7.Controllers
             var cookieOptions = new CookieOptions
             {
                 HttpOnly = true,
-                Secure = true,            
-                SameSite = SameSiteMode.None, 
+                Secure = true,
+                SameSite = SameSiteMode.None,
                 Expires = DateTime.UtcNow.AddDays(7),
                 Path = "/"
             };
@@ -145,9 +186,9 @@ namespace hw7.Controllers
                 issuer: issuer,
                 audience: audience,
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(15),
+                expires: DateTime.UtcNow.AddSeconds(30),
                 signingCredentials: creds
-            );
+    );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
