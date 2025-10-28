@@ -28,14 +28,14 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>🏠 Đây là Home Page</h1>
+      <h1>Đây là Home Page</h1>
       <p>Trang này chỉ xem được khi đã đăng nhập</p>
 
       {data ? (
         <div style={{ marginTop: "20px" }}>
-          <h3>👤 Tên đăng nhập: {data.username}</h3>
-          <h3>📧 Email: {data.email || "Chưa có email"}</h3>
-          <h3>🔑 Vai trò: {data.role}</h3>
+          <h3>Tên đăng nhập: {data.username}</h3>
+          <h3>Email: {data.email || "Chưa có email"}</h3>
+          <h3>Vai trò: {data.role}</h3>
         </div>
       ) : (
         <p>Đang tải dữ liệu...</p>
