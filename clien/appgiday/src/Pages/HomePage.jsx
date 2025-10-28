@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import api from '../Service/axiosClient'; // ✅ axios có refresh sẵn
+import api from '../Service/axiosClient'; 
 
 const HomePage = () => {
   const [data, setData] = useState(null);
