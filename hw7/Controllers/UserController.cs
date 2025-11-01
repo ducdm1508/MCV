@@ -58,8 +58,6 @@ namespace hw7.Controllers
             return Ok(user);
         }
 
-        [Authorize(Roles ="admin")]
-        [HttpGet]
         [Authorize(Roles = "admin")]
         [HttpGet]
         public IActionResult GetAllUser()
