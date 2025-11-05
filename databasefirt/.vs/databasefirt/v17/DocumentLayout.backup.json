@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\controllers\\lecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:controllers\\lecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|c:\\users\\jplaptop\\source\\repos\\databasefirt\\models\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB344292-104A-4017-9CE7-A45875BCBABB}|databasefirt.csproj|solutionrelative:models\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturersController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Controllers\\LecturersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecturersController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Controllers\\LecturersController.cs",
+              "RelativeToolTip": "Controllers\\LecturersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:24:09.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:21:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:19:50.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Models\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\Lecturer.cs",
+              "RelativeToolTip": "Models\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:19:48.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\UniversityDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\UniversityDbContext.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Models\\UniversityDbContext.cs",
+              "RelativeToolTip": "Models\\UniversityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:18:57.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JpLaptop\\source\\repos\\databasefirt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:09:57.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
